@@ -1,4 +1,13 @@
 import sheenchair from "../assets/models/sheenchair.glb";
+import floor_mat_1 from "../assets/models/floor_mat_1.glb";
+import cup_set_1 from "../assets/models/cup_set_1.glb";
+import dinner_set_1 from "../assets/models/dinner_set_1.glb";
+import dinner_set_2 from "../assets/models/dinner_set_2.glb";
+import dinner_set_3 from "../assets/models/dinner_set_3.glb";
+import bowl_set_1 from "../assets/models/bowl_set_1.glb";
+import curtain_set_1 from "../assets/models/curtain_set_1.glb";
+import floor_mat_2 from "../assets/models/floor_mat_2.glb";
+
 import ioschair from "../assets/models/sheenchair.usdz";
 import painting from "../assets/models/Painting.glb";
 import iospainting from "../assets/models/Painting.usdz";
@@ -14,9 +23,9 @@ import potUsdz from "../assets/models/pot.usdz";
 const productItems = [
   {
     id: 1,
-    name: "Sheen Chair",
-    modelSrc: sheenchair,
-    iOSSrc: ioschair,
+    name: "Floor carpet",
+    modelSrc: floor_mat_2,
+    iOSSrc: floor_mat_2,
     category: "Furniture",
     color: "Orange",
     annotations: [
@@ -39,9 +48,9 @@ const productItems = [
   },
   {
     id: 2,
-    name: "Office Chair",
-    modelSrc: OfficeChair,
-    iOSSrc: OfficeChairUsdz,
+    name: "Cup set",
+    modelSrc: cup_set_1,
+    iOSSrc: cup_set_1,
     category: "Furniture",
     color: "black",
     annotations: [
@@ -64,9 +73,9 @@ const productItems = [
   },
   {
     id: 3,
-    name: "pot",
-    modelSrc: pot,
-    iOSSrc: potUsdz,
+    name: "Dinner set",
+    modelSrc: dinner_set_1,
+    iOSSrc: dinner_set_1,
     category: "Environment",
     color: "Red",
     annotations: [
@@ -82,9 +91,9 @@ const productItems = [
   },
   {
     id: 4,
-    name: "Painting",
-    modelSrc: painting,
-    iOSSrc: iospainting,
+    name: "Dinner set",
+    modelSrc: dinner_set_2,
+    iOSSrc: dinner_set_2,
     category: "Art",
     color: "Brown",
     annotations: [
@@ -107,9 +116,9 @@ const productItems = [
   },
   {
     id: 5,
-    name: "Car",
-    modelSrc: car,
-    iOSSrc: ioscar,
+    name: "Dinner set",
+    modelSrc: dinner_set_3,
+    iOSSrc: dinner_set_3,
     category: "Vehicle",
     color: "Blue",
     annotations: [
@@ -132,9 +141,9 @@ const productItems = [
   },
   {
     id: 6,
-    name: "Sport Car",
-    modelSrc: car1,
-    iOSSrc: ioscar1,
+    name: "Bowls",
+    modelSrc: bowl_set_1,
+    iOSSrc: bowl_set_1,
     category: "Vehicle",
     color: "Red",
     annotations: [
@@ -155,6 +164,57 @@ const productItems = [
       },
     ]
   },
+  
+  {
+    id: 7,
+    name: "Curtain",
+    modelSrc: curtain_set_1,
+    iOSSrc: curtain_set_1,
+    category: "Vehicle",
+    color: "Red",
+    annotations: [
+      {
+        title: "plastic-structure",
+        slot: "hotspot-1",
+        position: "0.011597651675006926m 0.5744572599492905m -0.1383899854988515m",
+        normal: "0.028332494851243895m 0.2137467602998606m 0.9764781575625839m",
+        orbit: "10.89188deg 119.9775deg 0.03543022m",
+        target: "-0.1053838m 0.01610652m 0.1076345m"
+      }, {
+        title: "glossy-color",
+        slot: "hotspot-2",
+        position: "0.008754174027053235m 0.3513235856998005m 0.1658749505478343m",
+        normal: "-0.30988561688489596m 0.9507625837296717m -0.004627507703580716m",
+        orbit: "10.89188deg 119.9775deg 0.03543022m",
+        target: "-0.1053838m 0.01610652m 0.1076345m"
+      },
+    ]
+  },
+  // {
+  //   id: 8,
+  //   name: "Floor mat",
+  //   modelSrc: floor_mat_2,
+  //   iOSSrc: floor_mat_2,
+  //   category: "Vehicle",
+  //   color: "Red",
+  //   annotations: [
+  //     {
+  //       title: "plastic-structure",
+  //       slot: "hotspot-1",
+  //       position: "0.011597651675006926m 0.5744572599492905m -0.1383899854988515m",
+  //       normal: "0.028332494851243895m 0.2137467602998606m 0.9764781575625839m",
+  //       orbit: "10.89188deg 119.9775deg 0.03543022m",
+  //       target: "-0.1053838m 0.01610652m 0.1076345m"
+  //     }, {
+  //       title: "glossy-color",
+  //       slot: "hotspot-2",
+  //       position: "0.008754174027053235m 0.3513235856998005m 0.1658749505478343m",
+  //       normal: "-0.30988561688489596m 0.9507625837296717m -0.004627507703580716m",
+  //       orbit: "10.89188deg 119.9775deg 0.03543022m",
+  //       target: "-0.1053838m 0.01610652m 0.1076345m"
+  //     },
+  //   ]
+  // },
   
 ];
 export default productItems;
